@@ -22,8 +22,6 @@ void ShaderProgram_New(ShaderProgram_New_Args args) {
 	puts("end of args");
 }
 
-#define SHADERPROGRAM_NEW(...) ShaderProgram_New(args, END_SHADERPROGRAM_NEW)
-
 #define GL_CONSTANT_VERTEX 1
 #define GL_CONSTANT_FRAGMENT 2
 
